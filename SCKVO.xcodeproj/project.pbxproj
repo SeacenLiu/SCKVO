@@ -13,6 +13,8 @@
 		1413CBA2225B78390052E78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1413CBA1225B78390052E78A /* Assets.xcassets */; };
 		1413CBA5225B78390052E78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1413CBA3225B78390052E78A /* LaunchScreen.storyboard */; };
 		1413CBA8225B78390052E78A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1413CBA7225B78390052E78A /* main.m */; };
+		1413CBB2225B79070052E78A /* SCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1413CBB0225B79070052E78A /* SCTest.m */; };
+		1413CBB3225B79070052E78A /* NSObject+SCKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1413CBB1225B79070052E78A /* NSObject+SCKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		1413CBA4225B78390052E78A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1413CBA6225B78390052E78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1413CBA7225B78390052E78A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1413CBAE225B79060052E78A /* SCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTest.h; sourceTree = "<group>"; };
+		1413CBAF225B79070052E78A /* NSObject+SCKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SCKVO.h"; sourceTree = "<group>"; };
+		1413CBB0225B79070052E78A /* SCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTest.m; sourceTree = "<group>"; };
+		1413CBB1225B79070052E78A /* NSObject+SCKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SCKVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		1413CB97225B78370052E78A /* SCKVO */ = {
 			isa = PBXGroup;
 			children = (
+				1413CBAF225B79070052E78A /* NSObject+SCKVO.h */,
+				1413CBB1225B79070052E78A /* NSObject+SCKVO.m */,
+				1413CBAE225B79060052E78A /* SCTest.h */,
+				1413CBB0225B79070052E78A /* SCTest.m */,
 				1413CB98225B78370052E78A /* AppDelegate.h */,
 				1413CB99225B78370052E78A /* AppDelegate.m */,
 				1413CB9B225B78370052E78A /* ViewController.h */,
@@ -142,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1413CB9D225B78370052E78A /* ViewController.m in Sources */,
+				1413CBB2225B79070052E78A /* SCTest.m in Sources */,
+				1413CBB3225B79070052E78A /* NSObject+SCKVO.m in Sources */,
 				1413CBA8225B78390052E78A /* main.m in Sources */,
 				1413CB9A225B78370052E78A /* AppDelegate.m in Sources */,
 			);
